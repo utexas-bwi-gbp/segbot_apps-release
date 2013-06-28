@@ -1,0 +1,21 @@
+## segbot_apps - 0.1.0-0
+
+User `piyushk@zoidberg` released the packages in the `segbot_apps` repository by running `/usr/bin/bloom-release segbot_apps --track hydro --rosdistro hydro` on `Fri, 28 Jun 2013 21:00:00 -0000`
+
+These packages were released:
+- `segbot_apps`
+- `segbot_navigation`
+
+Version of package(s) in repository `segbot_apps`:
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.1.0-0`
+
+Versions of tools used:
+- bloom version: `0.4.2`
+- catkin_pkg version: `0.1.16`
+- rosdep version: `0.10.19`
+- rosdistro version: `0.2.9`
+- vcstools version: `0.1.31`
+
+
