@@ -1,3 +1,26 @@
+## segbot_apps (hydro) - 0.2.0-0
+
+The packages in the `segbot_apps` repository were released into the `hydro` distro by running `/usr/bin/bloom-release segbot_apps -t hydro -r hydro` on `Sun, 20 Apr 2014 04:01:55 -0000`
+
+These packages were released:
+- `segbot_apps`
+- `segbot_gui`
+- `segbot_logical_translator`
+- `segbot_navigation`
+
+Version of package(s) in repository `segbot_apps`:
+- rosdistro version: `0.1.5-0`
+- old version: `0.1.5-0`
+- new version: `0.2.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.4`
+- catkin_pkg version: `0.2.1`
+- rosdep version: `0.10.27`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## segbot_apps - 0.1.5-0
 
 User `piyushk@robot-devil` released the packages in the `segbot_apps` repository by running `/usr/bin/bloom-release --track hydro --ros-distro hydro segbot_apps` on `Tue, 03 Sep 2013 16:21:51 -0000`
