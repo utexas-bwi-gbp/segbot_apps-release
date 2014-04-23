@@ -1,0 +1,49 @@
+ros-hydro-segbot-apps (0.2.1-0quantal) quantal; urgency=high
+
+  * Add segbot_gui and segbot_logical_translator dependencies (#16 <https://github.com/utexas-bwi/segbot_apps/issues/16>)
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Tue, 22 Apr 2014 05:00:00 -0000
+
+ros-hydro-segbot-apps (0.2.0-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Sat, 19 Apr 2014 05:00:00 -0000
+
+ros-hydro-segbot-apps (0.1.5-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Tue, 03 Sep 2013 05:00:00 -0000
+
+ros-hydro-segbot-apps (0.1.4-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Mon, 12 Aug 2013 05:00:00 -0000
+
+ros-hydro-segbot-apps (0.1.3-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Tue, 16 Jul 2013 05:00:00 -0000
+
+ros-hydro-segbot-apps (0.1.2-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Sat, 13 Jul 2013 05:00:00 -0000
+
+ros-hydro-segbot-apps (0.1.1-0quantal) quantal; urgency=high
+
+
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Wed, 10 Jul 2013 05:00:00 -0000
+
+ros-hydro-segbot-apps (0.1.0-0quantal) quantal; urgency=high
+
+  * catkinized segbot_apps
+
+ -- Piyush Khandelwal <piyushk@gmail.com>  Fri, 28 Jun 2013 05:00:00 -0000
+
+
