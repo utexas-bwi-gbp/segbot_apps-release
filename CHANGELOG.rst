@@ -2,6 +2,9 @@
 Changelog for package segbot_logical_translator
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2014-04-22)
+------------------
+
 0.2.0 (2014-04-19)
 ------------------
 * now actually read in object approach file
