@@ -1,9 +1,9 @@
 import rospy
 import time
 
+from bwi_msgs.srv import QuestionDialog, QuestionDialogResponse, \
+                         QuestionDialogRequest
 from functools import partial
-from segbot_gui.srv import QuestionDialog, QuestionDialogResponse, \
-                           QuestionDialogRequest
 from qt_gui.plugin import Plugin
 from python_qt_binding.QtGui import QFont, QHBoxLayout, QLabel, QLineEdit, \
                                     QPushButton, QTextBrowser, QVBoxLayout, \
@@ -19,7 +19,7 @@ class QuestionDialogPlugin(Plugin):
 
         # Create QWidget
         self._widget = QWidget()
-        self._widget.setFont(QFont("Times", 14, QFont.Bold))
+        self._widget.setFont(QFont("Times", 40, QFont.Bold))
         self._layout = QVBoxLayout(self._widget)
         self._text_browser = QTextBrowser(self._widget)
         self._layout.addWidget(self._text_browser)
@@ -56,6 +56,9 @@ class QuestionDialogPlugin(Plugin):
         # Start timer against wall clock here instead of the ros clock.
         start_time = time.time()
         while not self.response_ready:
+            if self.request != req:
+                # The request got preempted by a new request.
+                return QuestionDialogResponse(QuestionDialogRequest.PREEMPTED, "")
             if req.timeout != QuestionDialogRequest.NO_TIMEOUT:
                 current_time = time.time()
                 if current_time - start_time > req.timeout:
