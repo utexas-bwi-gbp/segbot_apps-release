@@ -1,4 +1,3 @@
-# http://ros.org/doc/groovy/api/catkin/html/user_guide/supposed.html
 cmake_minimum_required(VERSION 2.8.3)
 project(segbot_logical_translator)
 
@@ -6,9 +5,12 @@ find_package(catkin REQUIRED
   COMPONENTS 
     actionlib 
     bwi_mapper 
+    bwi_msgs 
     bwi_planning_common 
     message_filters
     move_base_msgs
+    multi_level_map_msgs
+    multi_level_map_utils
     nav_msgs
     roscpp
     tf
@@ -16,9 +18,14 @@ find_package(catkin REQUIRED
 
 catkin_package(
   CATKIN_DEPENDS 
+    actionlib
     bwi_mapper 
+    bwi_msgs
     bwi_planning_common
+    message_filters
     move_base_msgs
+    multi_level_map_msgs
+    multi_level_map_utils
     nav_msgs
     roscpp 
     tf
@@ -43,6 +50,7 @@ add_executable(segbot_logical_navigator src/nodes/segbot_logical_navigator.cpp)
 target_link_libraries(segbot_logical_navigator 
   ${catkin_LIBRARIES}
   segbot_logical_translator)
+add_dependencies(segbot_logical_navigator segbot_logical_translator_generate_messages_cpp)
  
 install(TARGETS segbot_logical_translator segbot_logical_navigator
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
