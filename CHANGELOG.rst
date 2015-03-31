@@ -2,6 +2,9 @@
 Changelog for package segbot_gui
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.3.1 (2015-03-31)
+------------------
+
 0.3.0 (2015-03-24)
 ------------------
 * removed unnecessary script installation which installs in global bin instead of package bin.
