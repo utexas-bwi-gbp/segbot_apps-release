@@ -1,0 +1,12 @@
+Source: ros-hydro-segbot-navigation
+Section: misc
+Priority: extra
+Maintainer: Piyush Khandelwal <piyushk@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-bwi-interruptable-action-server, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-move-base-msgs, ros-hydro-nav-msgs, ros-hydro-roslaunch, ros-hydro-std-srvs
+Homepage: http://ros.org/wiki/segbot_navigation
+Standards-Version: 3.9.2
+
+Package: ros-hydro-segbot-navigation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-amcl, ros-hydro-bwi-interruptable-action-server, ros-hydro-eband-local-planner, ros-hydro-geometry-msgs, ros-hydro-gmapping, ros-hydro-map-server, ros-hydro-move-base (>= 1.11.15), ros-hydro-move-base-msgs, ros-hydro-nav-msgs, ros-hydro-navfn, ros-hydro-rviz, ros-hydro-segbot-bringup, ros-hydro-std-srvs
+Description: Contains launch files for running the ROS navigation stack on the segbot using the eband_local_planner approach, as well as launch files for amcl and gmapping.
