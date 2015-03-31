@@ -1,3 +1,28 @@
+## segbot_apps (indigo) - 0.3.1-0
+
+The packages in the `segbot_apps` repository were released into the `indigo` distro by running `/usr/bin/bloom-release segbot_apps --non-i --track indigo --ros-distro indigo` on `Tue, 31 Mar 2015 18:10:16 -0000`
+
+These packages were released:
+- `segbot_apps`
+- `segbot_gui`
+- `segbot_logical_translator`
+- `segbot_navigation`
+
+Version of package(s) in repository `segbot_apps`:
+- upstream repository: https://github.com/utexas-bwi/segbot_apps.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.1-0`
+
+Versions of tools used:
+- bloom version: `0.5.19`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.10.33`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## segbot_apps (hydro) - 0.3.1-0
 
 The packages in the `segbot_apps` repository were released into the `hydro` distro by running `/usr/bin/bloom-release segbot_apps --non-i --track hydro --rosdistro hydro` on `Tue, 31 Mar 2015 18:07:43 -0000`
